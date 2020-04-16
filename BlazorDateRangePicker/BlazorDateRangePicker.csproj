@@ -10,15 +10,16 @@
 		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
 		<LangVersion>preview</LangVersion>
 
-		<Version>2.2.0</Version>
-		<Authors>Sergey Zaikin</Authors>
+		<Version>2.2.1</Version>
+		<Authors>Sergey Zaikin, Portlight Technology</Authors>
 		<PackageId>BlazorDateRangePicker</PackageId>
 		<Title>Blazor Date Range Picker</Title>
 		<Description>A fully managed port of daterangepicker.js for Blazor</Description>
-		<PackageProjectUrl>https://github.com/jdtcn/BlazorDateRangePicker</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/jdtcn/BlazorDateRangePicker</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/marcel272/BlazorDateRangePicker</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/marcel272/BlazorDateRangePicker</RepositoryUrl>
 		<PackageTags>blazor;daterangepicker;datepicker</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Company>Sergey Zaikin, Portlight Technology</Company>
 	</PropertyGroup>
 
 	<ItemGroup>

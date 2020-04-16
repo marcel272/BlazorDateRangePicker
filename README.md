@@ -116,7 +116,7 @@ Gives you:
 @code {
     public void OnRangeSelect(DateRange range)
     {
-        //Use range.Start and range.End here
+        //Use range.Key, range.Start and range.End here
     }
 }
 ````
@@ -235,6 +235,10 @@ public class DateRange
 >The End property is the end of a selected day (dateTime.Date.AddDays(1).AddTicks(-1)).
 
 ## Changelog
+
+### 2.2.1
+
+1. Added Key property for DatePickers in foreach loops.
 
 ### 2.2.0
 

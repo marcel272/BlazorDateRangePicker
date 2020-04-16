@@ -102,6 +102,9 @@ else
 @code {
 
     [Parameter]
+    public string Key { get; set; }
+
+    [Parameter]
     public RenderFragment<DateRangePicker> PickerTemplate { get; set; }
 
     private CalendarType LeftCalendar { get; set; }
@@ -304,7 +307,7 @@ else
             StateHasChanged();
             await StartDateChanged.InvokeAsync(StartDate.Value);
             await EndDateChanged.InvokeAsync(EndDate.Value);
-            await OnRangeSelect.InvokeAsync(new DateRange { Start = StartDate.Value, End = EndDate.Value });
+            await OnRangeSelect.InvokeAsync(new DateRange { Key = Key, Start = StartDate.Value, End = EndDate.Value });
         }
         Close();
     }
